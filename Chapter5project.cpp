@@ -18,7 +18,7 @@ int main() {
     }
 
     // Input: Daily increase percentage
-    cout << "Enter the average daily population increase (as a percentage, e.g., 5 for 5%): ";
+    cout << "Enter the average daily population increase (as a percentage): ";
     cin >> dailyIncreasePercent;
     while (dailyIncreasePercent < 0) {
         cout << "Error: Daily increase cannot be negative.\n";
